@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    padding-top: 70px;
+    background-color: #d4edff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 60px;
+    margin-right: 8px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #47b2fe;
+    color: #fff;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    padding: 8px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+form button {
+    background-color: #47b2fe;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+form button:hover {
+    background-color: #73c4fe;
+}
+
+table th {
+    border-bottom: 2px solid #0f3b5a;
+    color: #0f3b5a;
+    padding: 16px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+table td{
+    color: #0f3b5a;
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(20, 93, 143, 0.295);
+    margin-right: 14px;
+    
+}
+
+table td img {
+    height: 30px;
+    margin-left: 14px;
+}
+
+table {
+    width: 100%;
+}
